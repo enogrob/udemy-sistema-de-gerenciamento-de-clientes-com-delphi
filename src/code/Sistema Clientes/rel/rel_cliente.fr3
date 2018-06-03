@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.6.7" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="43026,5045460417" ReportOptions.Description.Text="" ReportOptions.LastChange="43026,5656876157" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="64,25201" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="257,00804" Top="18,89765" Width="173,85838" Height="30,23624" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="Relatório de Cliente"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="249,44898" Left="0" Top="143,62214" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" RowCount="0">
+      <TfrxShapeView Name="Shape1" Left="11,33859" Top="11,33859" Width="75,5906" Height="18,89765" Frame.Color="12632256"/>
+      <TfrxMemoView Name="ds_rel_clientecli_id" Left="60,47248" Top="11,33859" Width="79,37013" Height="18,89765" DataField="cli_id" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_id&#34;]"/>
+      <TfrxMemoView Name="Memo2" Left="11,33859" Top="11,33859" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Código"/>
+      <TfrxLineView Name="Line1" Left="7,55906" Top="94,48825" Width="699,21305" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line2" Left="706,77211" Top="68,03154" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line3" Left="7,55906" Top="71,81107" Width="0" Height="22,67718" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="ds_rel_clientecli_nome" Left="15,11812" Top="71,81107" Width="162,51979" Height="18,89765" DataField="cli_nome" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_nome&#34;]"/>
+      <TfrxMemoView Name="ds_rel_clientecli_tel" Left="283,46475" Top="71,81107" Width="158,74026" Height="18,89765" DataField="cli_tel" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_tel&#34;]"/>
+      <TfrxMemoView Name="ds_rel_clientecli_cel" Left="536,69326" Top="71,81107" Width="158,74026" Height="18,89765" DataField="cli_cel" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_cel&#34;]"/>
+      <TfrxLineView Name="Line4" Left="279,68522" Top="71,81107" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line5" Left="532,91373" Top="71,81107" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo3" Left="15,11812" Top="52,91342" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Nome"/>
+      <TfrxMemoView Name="Memo4" Left="283,46475" Top="52,91342" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Telefone"/>
+      <TfrxMemoView Name="Memo5" Left="532,91373" Top="49,13389" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Celular"/>
+      <TfrxLineView Name="Line6" Left="7,55906" Top="147,40167" Width="699,21305" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line7" Left="706,77211" Top="124,72449" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line8" Left="7,55906" Top="124,72449" Width="0" Height="22,67718" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo6" Left="11,33859" Top="124,72449" Width="162,51979" Height="18,89765" DataField="cli_endereco" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_endereco&#34;]"/>
+      <TfrxMemoView Name="Memo7" Left="257,00804" Top="124,72449" Width="132,28355" Height="18,89765" DataField="cli_bairro" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_bairro&#34;]"/>
+      <TfrxMemoView Name="Memo8" Left="423,30736" Top="128,50402" Width="158,74026" Height="18,89765" DataField="cli_cidade" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_cidade&#34;]"/>
+      <TfrxLineView Name="Line9" Left="253,22851" Top="124,72449" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line10" Left="419,52783" Top="124,72449" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo9" Left="11,33859" Top="105,82684" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Endereço"/>
+      <TfrxMemoView Name="Memo10" Left="257,00804" Top="105,82684" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Bairro"/>
+      <TfrxMemoView Name="Memo11" Left="419,52783" Top="105,82684" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Cidade"/>
+      <TfrxLineView Name="Line11" Left="604,7248" Top="124,72449" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo13" Left="604,7248" Top="102,04731" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Estado"/>
+      <TfrxMemoView Name="ds_rel_clientecli_uf" Left="604,7248" Top="128,50402" Width="83,14966" Height="18,89765" DataField="cli_uf" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_uf&#34;]"/>
+      <TfrxLineView Name="Line12" Left="7,55906" Top="204,09462" Width="699,21305" Height="0" Color="0" Frame.Typ="4"/>
+      <TfrxLineView Name="Line13" Left="706,77211" Top="181,41744" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo12" Left="7,55906" Top="181,41744" Width="162,51979" Height="18,89765" DataField="cli_rg" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_rg&#34;]"/>
+      <TfrxMemoView Name="Memo14" Left="204,09462" Top="181,41744" Width="132,28355" Height="18,89765" DataField="cli_cpf" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_cpf&#34;]"/>
+      <TfrxMemoView Name="Memo15" Left="370,39394" Top="185,19697" Width="200,31509" Height="18,89765" DataField="cli_email" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_email&#34;]"/>
+      <TfrxLineView Name="Line15" Left="200,31509" Top="181,41744" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line16" Left="366,61441" Top="181,41744" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo16" Left="7,55906" Top="162,51979" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="RG"/>
+      <TfrxMemoView Name="Memo17" Left="204,09462" Top="162,51979" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="CPF"/>
+      <TfrxMemoView Name="Memo18" Left="366,61441" Top="162,51979" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Email"/>
+      <TfrxLineView Name="Line17" Left="585,82715" Top="181,41744" Width="0" Height="22,67716535" Color="0" Frame.Typ="1"/>
+      <TfrxMemoView Name="Memo19" Left="585,82715" Top="158,74026" Width="117,16543" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Data Nascimento"/>
+      <TfrxMemoView Name="Memo20" Left="585,82715" Top="185,19697" Width="83,14966" Height="18,89765" DataField="cli_data_nasc" DataSet="ds_rel_cliente" DataSetName="ds_rel_cliente" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[ds_rel_cliente.&#34;cli_data_nasc&#34;]"/>
+      <TfrxLineView Name="Line19" Left="7,55906" Top="181,41744" Width="0" Height="22,67718" Color="0" Frame.Typ="1"/>
+      <TfrxLineView Name="Line14" Left="0" Top="238,11039" Width="718,1107" Height="0" Color="0" Frame.Typ="4"/>
+    </TfrxMasterData>
+  </TfrxReportPage>
+</TfrxReport>

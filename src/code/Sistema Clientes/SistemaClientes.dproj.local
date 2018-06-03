@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/10/09 12:35:13.000.180,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:35:55.000.843,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/09 12:36:37.000.494,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/16 12:39:45.000.286,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/10/16 12:51:29.000.373,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_principal.dfm</Transaction>
+    <Transaction>2017/10/16 12:51:29.000.373,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_principal.pas</Transaction>
+    <Transaction>2017/10/16 12:51:43.000.848,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\SistemaClientes.dproj</Transaction>
+    <Transaction>2017/10/16 13:51:02.000.455,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.pas</Transaction>
+    <Transaction>2017/10/16 13:51:30.000.020,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_dm.dfm</Transaction>
+    <Transaction>2017/10/16 13:51:30.000.020,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_dm.pas</Transaction>
+    <Transaction>2017/10/16 14:40:51.000.098,=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.pas</Transaction>
+    <Transaction>2017/10/16 14:41:07.000.012,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.dfm=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_Clientes.dfm</Transaction>
+    <Transaction>2017/10/16 14:41:07.000.012,C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\Unit1.pas=C:\Users\hugov\Documents\Embarcadero\Studio\Projects\Sistema Clientes\fontes\U_Clientes.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>
